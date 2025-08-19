@@ -26,12 +26,13 @@ npm run dev
 
 ### 2️⃣ Actualizar el proyecto local si lo descargaste con otro nombre
 
-- Opción A — Renombrar la carpeta local
+#### 🔹 Opción A — Renombrar la carpeta local
   ```bash
   mv my-app-react react-vite-starter
   cd react-vite-starter
   ```
-- Opción B — Cambiar el remoto de Git
+
+#### 🔹 Opción B — Cambiar el remoto de Git
   ```bash
   cd my-app-react
   git remote set-url origin https://github.com/hjoven15/react-vite-starter.git
@@ -62,4 +63,8 @@ npm run dev     # Ejecuta la app en modo desarrollo
 npm run build   # Genera la versión optimizada para producción
 npm run preview # Previsualiza el build de producción en local
 ```
-  
+
+---
+
+## 📄 Licencia
+Este proyecto está bajo la licencia **MIT**.
